@@ -3,11 +3,11 @@ function Navbar() {
     return (
         <nav>
 
-            <div className="logo">
+            <div className="logo translate-x-20 ">
                 <img className="" src="asset_pic/logo-text.png" alt="" />
             </div>
 
-            <ul className="nav-links">
+            <ul className="nav-links translate-x-15  text-gray-500 ">
 
                 <li ><a href="">Home</a></li>
                 <li><a href="">Technologies</a></li>
