@@ -51,7 +51,7 @@ function Hero() {
             </span>
           </h1>
 
-          <p className="text-[18px] text-[#64748B] font-normal">
+          <p className="text-[18px] text-[#64748B] font-normal font-sans">
             Pick one technology per category to build your ideal stack.
           </p>
         </div>

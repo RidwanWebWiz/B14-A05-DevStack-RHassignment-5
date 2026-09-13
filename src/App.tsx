@@ -2,6 +2,8 @@
 import './App.css'
 import Navbar from "./assets/component/Navbar"
 import Hero from "./assets/component/Hero"
+import Footer from './assets/component/Footer'
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -9,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Footer />
     </>
   )
 }
