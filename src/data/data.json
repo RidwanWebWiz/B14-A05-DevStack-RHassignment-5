@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "badge": "Popular",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/physics.png"
+  },
+  {
+    "id": 2,
+    "title": "Vue.js",
+    "badge": "Versatile",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.8,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/icons8-vue-js-48.png"
+  },
+  {
+    "id": 3,
+    "title": "Svelte",
+    "badge": "Fast",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Svelte.png"
+  },
+  {
+    "id": 4,
+    "title": "Next.js",
+    "badge": "Fast",
+    "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Next.js.png"
+  },
+  {
+    "id": 5,
+    "title": "Node.js",
+    "badge": "Standard",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Node.js.png"
+  },
+  {
+    "id": 6,
+    "title": "PostgreSQL",
+    "badge": "Top SQL",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/PostgresSQL.png"
+  },
+  {
+    "id": 7,
+    "title": "Redis",
+    "badge": "Cache",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Redis.png"
+  },
+  {
+    "id": 8,
+    "title": "JavaScript",
+    "badge": "Ubiquitous",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "category": "Language",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/JavaScript.png"
+  },
+  {
+    "id": 9,
+    "title": "TypeScript",
+    "badge": "Essential",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/TypeScript.png"
+  },
+  {
+    "id": 10,
+    "title": "Java",
+    "badge": "Robust",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Java.png"
+  },
+  {
+    "id": 11,
+    "title": "Tailwind CSS",
+    "badge": "Modern",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+    "category": "Styling",
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Tailwind CSS.png"
+  },
+  {
+    "id": 12,
+    "title": "Docker",
+    "badge": "Containers",
+    "description": "A platform designed to build, share and run containerized applications reliably.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "action": "Add to Stack",
+    "icon": "public/logoa12/Docker.png"
+  }
+]

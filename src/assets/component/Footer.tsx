@@ -1,88 +1,65 @@
 function Footer() {
-    return (
-        <footer className="font-sans">
-            <div className="mb-30 ml-32  flex gap-30 list-none p-0  ">
-                <div className="flex flex-col gap-3">
-                    <img
-                        className="w-31.25 h-auto"
-                        src="/asset_pic/logo-text.png"
-                        alt="DevStack"
-                    />
-
-                    <p className="text-[12px] text-[#64748B]">
-                        Curated tools, technologies, and resources for developers building
-                        <br />
-                        modern software.
-                    </p>
-
-                    <ul className="text-[12px] text-slate-600 font-medium flex gap-5 list-none p-0">
-                        <li>
-                            <a href="">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="flex gap-36 tracking-[0.5px] ">
-                    <div className="flex flex-col gap-4">
-                        <h6 className="text-slate-900 font-bold text-xs">PRODUCT</h6>
-                        <ul className=" flex-col text-[12px] text-[#64748B]  flex gap-2 list-none p-0">
-                            <li>
-                                <a href="">Home</a>
-                            </li>
-                            <li>
-                                <a href=""> Technologies </a>
-                            </li>
-                            <li>
-                                <a href="">Projects</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="flex flex-col gap-4">
-                        <h6 className="text-slate-900 font-bold text-xs">COMPANY</h6>
-                        <ul className=" flex-col text-[12px] text-[#64748B]  flex gap-2 list-none p-0">
-                            <li>
-                                <a href="">About</a>
-                            </li>
-                            <li>
-                                <a href="">Contact</a>
-                            </li>
-                            <li>
-                                <a href="">Careers</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                        <h6 className="text-slate-900 font-bold text-xs">LEGAL</h6>
-                        <ul className=" flex-col text-[12px] text-[#64748B]  flex gap-2 list-none p-0 ">
-                            <li>
-                                <a href="">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="">Terms of Service</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+  return (
+    <footer className="w-full border-t border-slate-100 bg-white pt-16 pb-12 font-sans">
+      <div className="max-w-7xl mx-auto px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12">
+          
+          <div className="space-y-4">
+            <img
+              className="h-7 w-auto"
+              src="/asset_pic/logo-text.png"
+              alt="DevStack"
+            />
+            <p className="text-xs text-slate-500 leading-relaxed">
+              Curated tools, technologies, and resources for developers building modern software.
+            </p>
+            <div className="flex gap-4 text-xs font-semibold text-slate-600 pt-2">
+              <a href="" className="hover:text-pink-600 transition-colors">GitHub</a>
+              <a href="" className="hover:text-pink-600 transition-colors">Twitter</a>
+              <a href="" className="hover:text-pink-600 transition-colors">LinkedIn</a>
             </div>
-            <div className="flex ml-32 mb-12 gap-220 text-[11px]">
-                <p className=" text-gray-400">© 2026 Dev Stack. All rights reserved.</p>
-                <ul className=" text-gray-400 flex gap-8">
-                    <li>
-                        <a href="">Privacy</a>
-                    </li>
-                    <li>
-                        <a href="">Terms</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    );
+          </div>
+
+          
+          <div className="space-y-3">
+            <h6 className="text-xs font-bold tracking-wider text-slate-900 uppercase">PRODUCT</h6>
+            <ul className="space-y-2 text-xs text-slate-500">
+              <li><a href="" className="hover:text-pink-600 transition-colors">Home</a></li>
+              <li><a href="" className="hover:text-pink-600 transition-colors">Technologies</a></li>
+              <li><a href="" className="hover:text-pink-600 transition-colors">Projects</a></li>
+            </ul>
+          </div>
+
+          <div className="space-y-3">
+            <h6 className="text-xs font-bold tracking-wider text-slate-900 uppercase">COMPANY</h6>
+            <ul className="space-y-2 text-xs text-slate-500">
+              <li><a href="" className="hover:text-pink-600 transition-colors">About</a></li>
+              <li><a href="" className="hover:text-pink-600 transition-colors">Contact</a></li>
+              <li><a href="" className="hover:text-pink-600 transition-colors">Careers</a></li>
+            </ul>
+          </div>
+
+          
+          <div className="space-y-3">
+            <h6 className="text-xs font-bold tracking-wider text-slate-900 uppercase">LEGAL</h6>
+            <ul className="space-y-2 text-xs text-slate-500">
+              <li><a href="" className="hover:text-pink-600 transition-colors">Privacy Policy</a></li>
+              <li><a href="" className="hover:text-pink-600 transition-colors">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div className="border-t border-slate-100 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+          <p>© 2026 Dev Stack. All rights reserved.</p>
+          <div className="flex gap-6">
+            <a href="" className="hover:text-pink-500 transition-colors">Privacy</a>
+            <a href="" className="hover:text-pink-500 transition-colors">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer;
+export default Footer
