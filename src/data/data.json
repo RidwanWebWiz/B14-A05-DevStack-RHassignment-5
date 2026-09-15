@@ -8,7 +8,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/physics.png"
+    "icon": "/logoa12/physics.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.8,
     "action": "Add to Stack",
-    "icon": "public/logoa12/icons8-vue-js-48.png"
+    "icon": "/logoa12/icons8-vue-js-48.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Svelte.png"
+    "icon": "/logoa12/Svelte.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Next.js.png"
+    "icon": "/logoa12/Next.js.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Node.js.png"
+    "icon": "/logoa12/Node.js.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/PostgresSQL.png"
+    "icon": "/logoa12/PostgresSQL.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Redis.png"
+    "icon": "/logoa12/Redis.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/JavaScript.png"
+    "icon": "/logoa12/JavaScript.png"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/TypeScript.png"
+    "icon": "/logoa12/TypeScript.png"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "difficulty": "Intermediate",
     "rating": 4.6,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Java.png"
+    "icon": "/logoa12/Java.png"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Tailwind CSS.png"
+    "icon": "/logoa12/Tailwind CSS.png"
   },
   {
     "id": 12,
@@ -129,6 +129,6 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "action": "Add to Stack",
-    "icon": "public/logoa12/Docker.png"
+    "icon": "/logoa12/Docker.png"
   }
 ]
